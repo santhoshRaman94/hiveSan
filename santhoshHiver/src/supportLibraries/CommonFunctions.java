@@ -29,7 +29,7 @@ public class CommonFunctions extends MasterClass{
 		}
 	}
 	
-
+//click function
 	public void jsClick(WebElement element) {
 		JavascriptExecutor executor = (JavascriptExecutor)driver;
 		executor.executeScript("arguments[0].click();", element);

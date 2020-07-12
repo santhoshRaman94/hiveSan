@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 
 public class ObjectRepository_Gmail {
 
+//all the objects of Gmail
 	public static By GmailUsername=By.xpath("*//input[@type='email']");
 	public static By GmailNextButton=By.id("identifierNext");
 	public static By GmailPassword=By.xpath("*//input[@type='password']");

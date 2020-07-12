@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 
 public class ObjectRepository_Hiver extends MasterClass {
 
+//objects of hiver page
 	public static By HiverLoginIcon=By.xpath("*//div[@class='hiver-nonLogged-state-con topbar-button topbar-button-set hq-identity']");
 	public static By HiverLoginbutton=By.xpath("*//a[contains(text(),'Login to Hiver')]");
 	public static By Hivergear=By.xpath("//div[@id='hq-accounts-icon']");

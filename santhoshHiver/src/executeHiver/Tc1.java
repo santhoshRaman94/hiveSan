@@ -9,7 +9,7 @@ import testScripts.HiverOperationsMethod;
 
 public class Tc1 extends MasterClass
 {
-
+ 
 	GmailMethods gmail=new GmailMethods();
 	HiverOperationsMethod hiver=new HiverOperationsMethod();
 	
