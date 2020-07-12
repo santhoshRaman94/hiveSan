@@ -12,7 +12,15 @@ public class ObjectRepository_Hiver extends MasterClass {
 	public static By dashFrame=By.xpath("//*[@id='iframe_handler']");
 	public static By viewDash=By.xpath("*//div[contains(text(),'Dashboard')]");
 	// //ul[@class='h-reset h-nav-ul']//li[@name='sharedmailbox']//child::*[contains(text(),'Shared')]
-	public static By sharedmailbox=By.xpath("//*[@id='root']//ul/li[@name='sharedmailbox']");
+	//public static By sharedmailbox=By.xpath("//*[@id='root']//ul/li[@name='sharedmailbox']");
+	//public static By clickSharedMailBox=By.xpath("//span[contains(text(),'name')]//following::span[contains(text(),'Santest.hiver')]");
+	public static By sharedmailbox=By.xpath("//li[@name='sharedmailbox']/a");
 	public static By clickSharedMailBox=By.xpath("//span[contains(text(),'name')]//following::span[contains(text(),'Santest.hiver')]");
-	
+	public static By autoResponder=By.xpath("//span[text()='Auto Responder']");
+	public static By toggleMail=By.xpath("//input[@id='checkbox-default-3']");
+//	public static By txtFrame=By.xpath("//div[@id='cke_editor3']//iframe");
+	public static By txtFrame=By.xpath("//span[contains(text(),'Rich Text Editor, editor1')]//following-sibling::div//iframe");
+	public static By txtBox=By.xpath("//body[@contenteditable='true']/div[text()]");
+	public static By saveButton=By.xpath("//button[contains(text(),'Save')]");
+	public static By getToast=By.cssSelector(".Toastify__toast-container.Toastify__toast-container--bottom-left");
 }

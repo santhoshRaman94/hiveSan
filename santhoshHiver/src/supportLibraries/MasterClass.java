@@ -18,8 +18,7 @@ public class MasterClass {
 	@BeforeTest
 	
 	public void setup() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "F:\\Jars\\chromedriver83\\chromedriver.exe");
-
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Santhosh\\git\\hiveSan\\santhoshHiver\\src\\jarsAndDrivers\\BrowserDrivers\\chromedriver.exe");
 		ChromeOptions chromeOptions=new ChromeOptions();
 		chromeOptions.addExtensions(new File("C:\\Users\\Santhosh\\workspace\\HiverTrial01\\Hiver.crx"));
 		DesiredCapabilities desiredcapabilities=DesiredCapabilities.chrome();
