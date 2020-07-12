@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="200946" started-at="2020-07-12T12:14:47Z" finished-at="2020-07-12T12:18:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="200946" started-at="2020-07-12T12:14:47Z" finished-at="2020-07-12T12:18:08Z">
+      <class name="executeHiver.Tc1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:executeHiver.Tc1@8bd1b6a]" name="setup" is-config="true" duration-ms="48018" started-at="2020-07-12T12:14:47Z" finished-at="2020-07-12T12:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="executeAssignment()[pri:0, instance:executeHiver.Tc1@8bd1b6a]" name="executeAssignment" duration-ms="130972" started-at="2020-07-12T12:15:35Z" finished-at="2020-07-12T12:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAssignment -->
+        <test-method status="PASS" signature="close()[pri:0, instance:executeHiver.Tc1@8bd1b6a]" name="close" is-config="true" duration-ms="21458" started-at="2020-07-12T12:17:46Z" finished-at="2020-07-12T12:18:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- executeHiver.Tc1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
